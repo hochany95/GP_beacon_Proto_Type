@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright (c) 2016, 2017, 2019 Vincent Hiribarren
+
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation; either version 3 of the License, or (at your option) any later
+version.
+
+Linking Beacon Simulator statically or dynamically with other modules is making
+a combined work based on Beacon Simulator. Thus, the terms and conditions of
+the GNU General Public License cover the whole combination.
+
+As a special exception, the copyright holders of Beacon Simulator give you
+permission to combine Beacon Simulator program with free software programs
+or libraries that are released under the GNU LGPL and with independent
+modules that communicate with Beacon Simulator solely through the
+net.alea.beaconsimulator.bluetooth.AdvertiseDataGenerator and the
+net.alea.beaconsimulator.bluetooth.AdvertiseDataParser interfaces. You may
+copy and distribute such a system following the terms of the GNU GPL for
+Beacon Simulator and the licenses of the other code concerned, provided that
+you include the source code of that other code when and as the GNU GPL
+requires distribution of source code and provided that you do not modify the
+net.alea.beaconsimulator.bluetooth.AdvertiseDataGenerator and the
+net.alea.beaconsimulator.bluetooth.AdvertiseDataParser interfaces.
+
+The intent of this license exception and interface is to allow Bluetooth low energy
+closed or proprietary advertise data packet structures and contents to be sensibly
+kept closed, while ensuring the GPL is applied. This is done by using an interface
+which only purpose is to generate android.bluetooth.le.AdvertiseData objects.
+
+This exception is an additional permission under section 7 of the GNU General
+Public License, version 3 (“GPLv3”).
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="91"
+    android:viewportHeight="91">
+
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.98000004"
+        android:pathData="M79.658,13.067c-4.068,-3.359 -9.287,-5.209 -14.697,-5.209c-6.256,0 -12.309,2.488 -16.604,6.828c-1.002,1.008 -1.918,2.119 -2.768,3.35C41.199,11.669 34.107,7.821 26.465,7.821c-1.4,0 -2.82,0.129 -4.221,0.383C15.012,9.521 9.328,13.499 5.35,20.024c-5.695,9.354 -6.146,17.992 -1.383,26.408c2.555,4.508 5.879,8.918 10.168,13.48c7.891,8.389 17.23,16.348 29.4,25.055c0.648,0.461 1.338,0.693 2.047,0.693c1.1,0 1.844,-0.557 2.268,-0.877c10.816,-7.717 19.691,-15.152 27.137,-22.738c4.188,-4.268 8.932,-9.512 12.4,-16.033c1.455,-2.746 3.117,-6.432 3.02,-10.596C90.189,26.302 86.574,18.782 79.658,13.067zM82.947,43.657c-3.164,5.953 -7.613,10.859 -11.545,14.869c-7.09,7.223 -15.543,14.326 -25.836,21.713c-11.457,-8.256 -20.303,-15.826 -27.771,-23.768c-4.012,-4.268 -7.102,-8.361 -9.455,-12.516C4.504,37.175 4.916,30.401 9.643,22.64c3.199,-5.25 7.744,-8.443 13.498,-9.492c1.102,-0.201 2.221,-0.301 3.324,-0.301c6.857,0 12.928,3.781 16.223,10.088c0.188,0.367 0.373,0.717 0.678,1.285c0.436,0.822 1.289,1.332 2.215,1.332c0.014,0 0.029,0 0.043,0c0.941,-0.016 1.795,-0.557 2.211,-1.402c1.201,-2.436 2.5,-4.318 4.092,-5.928c3.361,-3.395 8.111,-5.338 13.035,-5.338c4.246,0 8.328,1.441 11.494,4.059c5.746,4.742 8.748,11 8.93,18.592C85.453,38.517 84.189,41.313 82.947,43.657z"/>
+ />
+<!--    <path-->
+<!--        android:fillColor="#000000"-->
+<!--        android:fillAlpha="0.98"-->
+<!--        android:pathData="M20.996,15.3038 L4.8603,15.1811 L3.43537,16.5845 L14.0803,27.3926 L1.1123,27.294-->
+<!--L1.08186,31.2961 L16.8782,31.4162 L16.758,47.2125 L20.7601,47.243-->
+<!--L20.8588,34.275 L31.5037,45.0831 L32.9286,43.6797 L33.0513,27.544-->
+<!--L20.9107,27.4446 L20.996,15.3038 Z M11.6603,19.2352 L16.9776,19.2756-->
+<!--L16.9301,24.5858 L11.6603,19.2352 Z M29.0259,31.5086 L28.9785,36.8188-->
+<!--L23.7016,31.4611 L29.0259,31.5086 Z" />-->
+</vector>
